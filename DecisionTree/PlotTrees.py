@@ -2,6 +2,7 @@
 """
 @author: 35760
 @time: 2020/5/23 10:24
+github上的画决策树代码
 """
 import matplotlib.pyplot as plt
 

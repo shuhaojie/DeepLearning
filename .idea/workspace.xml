@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e109c6-614e-42e6-b9f9-d597da4d552d" name="Default Changelist" comment="" />
+    <list default="true" id="59e109c6-614e-42e6-b9f9-d597da4d552d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DecisionTree/PlotTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree/PlotTrees.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TensorFlow" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1btv1N1vTwvLqN0jX2yY22CntfU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
