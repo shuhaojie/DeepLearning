@@ -80,14 +80,12 @@ def main():
 
     y_pred_line = model.predict(X)
     print(y_test[0:5])
-    # Color map
     cmap = plt.get_cmap('viridis')
 
     mse = mean_squared_error(y_test, y_pred)
 
     print("Mean Squared Error:", mse)
 
-    # Plot the results
     m1 = plt.scatter(366 * X_train[:, 1], y_train, color=cmap(0.9), s=10)
     m2 = plt.scatter(366 * X_test[:, 1], y_test, color=cmap(0.5), s=10)
     m3 = plt.scatter(366 * X_test[:, 1], y_pred, color='black', s=10)
