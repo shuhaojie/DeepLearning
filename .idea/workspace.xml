@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e109c6-614e-42e6-b9f9-d597da4d552d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdaBoost/course_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdaBoost/implement_adaboost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XgBoost/TempLinkoping2016.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XgBoost/xgb_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XgBoost/xgb_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientBoosting/decision_tree/decision_tree_classifier_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientBoosting/decision_tree/decision_tree_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientBoosting/decision_tree/decision_tree_regressor_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomForest/implement_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest/implement_random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XgBoost/TempLinkoping2016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XgBoost/xgb_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XgBoost/xgb_model.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/XgBoost" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GradientBoosting" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -44,6 +44,8 @@
       <recent name="C:\Users\35760\PycharmProjects\DeepLearning\TensorFlow\CNN" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\35760\PycharmProjects\DeepLearning\GradientBoosting" />
+      <recent name="C:\Users\35760\PycharmProjects\DeepLearning\XgBoost" />
       <recent name="C:\Users\35760\PycharmProjects\DeepLearning\RandomForest" />
       <recent name="C:\Users\35760\PycharmProjects\DeepLearning\TensorFlow" />
       <recent name="C:\Users\35760\PycharmProjects\DeepLearning\DecisionTree" />
@@ -61,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xgb_example">
-    <configuration name="course_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.xgboost_example">
+    <configuration name="gbdt_classifier_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +72,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GBDT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaBoost/course_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GBDT/gbdt_classifier_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gbdt_classifier_example" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GradientBoosting/gradient_boosting_decision_tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GradientBoosting/gradient_boosting_decision_tree/gbdt_classifier_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,27 +119,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaBoost/implement_adaboost.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="implement_random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RandomForest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomForest/implement_random_forest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,20 +169,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xgboost_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GradientBoosting/xgboost" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GradientBoosting/xgboost/xgboost_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.implement_random_forest" />
+      <item itemvalue="Python.gbdt_classifier_example" />
       <item itemvalue="Python.implement_adaboost" />
-      <item itemvalue="Python.course_code" />
       <item itemvalue="Python.xgb_model" />
       <item itemvalue="Python.xgb_example" />
+      <item itemvalue="Python.xgboost_example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xgboost_example" />
+        <item itemvalue="Python.gbdt_classifier_example" />
         <item itemvalue="Python.xgb_example" />
         <item itemvalue="Python.xgb_model" />
         <item itemvalue="Python.implement_adaboost" />
-        <item itemvalue="Python.course_code" />
-        <item itemvalue="Python.implement_random_forest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +305,21 @@
           <url>file://$PROJECT_DIR$/XgBoost/xgb_model.py</url>
           <line>66</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XgBoost/xgb_model.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XgBoost/xgb_example.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GBDT/gbdt_classifier_example.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
